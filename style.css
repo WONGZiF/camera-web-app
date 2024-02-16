@@ -1,0 +1,28 @@
+html, body{
+    margin: 50px;
+    padding: 50px;
+}
+
+#camera, #camera-view, #camera-device, #photo-display{
+    position: fixed;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+#front-camera-button{
+    position: fixed;
+    bottom: 50px;
+    width: 50%;
+}
+
+#take-photo-buttom{
+    position: fixed;
+    bottom: 50px;
+    width: 50%;
+}
+
+.photo-taken{
+    height: 100px!important;
+    width: 100px!important;
+}
